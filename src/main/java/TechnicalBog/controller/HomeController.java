@@ -36,6 +36,8 @@ public class HomeController {
 
         model.addAttribute("posts",posts);
 
+        // Added Comment to test
+
         return "index";
     }
 }
